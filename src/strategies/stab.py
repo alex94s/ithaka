@@ -119,7 +119,7 @@ class STABStrategy(Strategy):
             'NMIH', 'NOG', 'NPK', 'NPO', 'NSIT', 'NTCT', 'NUS', 'NVEE', 'NVRI', 
             'NWBI', 'NWL', 'NWN', 'NX', 'NXRT', 'NYMT', 'ODP', 'OFG', 'OGN', 'OI', 'OII', 
             'OMCL', 'OMI', 'OSIS', 'OSUR', 'OTTR', 'OXM', 'PAHC', 'PARR', 'PAYO', 
-            'PATK', 'PBH', 'PBI', 'PCRX', 'PDCO', 'PDFS', 'PEB', 'PECO', 'PFBC', 'PFS', 
+            'PATK', 'PBH', 'PBI', 'PCRX', 'PDFS', 'PEB', 'PECO', 'PFBC', 'PFS', 
             'PHIN', 'PINC', 'PIPR', 'PJT', 'PLAB', 'PLAY', 'PLMR', 'PLUS', 'PLXS', 'PMT', 
             'POWL', 'PPBI', 'PRA', 'PRAA', 'PRDO', 'PRFT', 'PRG', 'PRGS', 'PRK', 'PRLB', 
             'PRVA', 'PSMT', 'PTEN', 'PUMP', 'PZZA', 'QNST', 'RAMP', 'RC', 'RCUS', 'RDN', 
