@@ -137,7 +137,7 @@ class EMMStrategy(Strategy):
             'HINDCOPPER.NS', 'HINDPETRO.NS', 'HINDUNILVR.NS', 'HINDZINC.NS',
             'POWERINDIA.NS', 'HOMEFIRST.NS', 'HONASA.NS', 'HONAUT.NS',
             'HUDCO.NS', 'ICICIBANK.NS', 'ICICIGI.NS', 'ICICIPRULI.NS',
-            'ISEC.NS', 'IDBI.NS', 'IDFCFIRSTB.NS', 'IDFC.NS',
+            'IDBI.NS', 'IDFCFIRSTB.NS', 'IDFC.NS',
             'IIFL.NS', 'IRB.NS', 'IRCON.NS', 'ITC.NS',
             'ITI.NS', 'INDIACEM.NS', 'IBULHSGFIN.NS', 'INDIAMART.NS',
             'INDIANB.NS', 'IEX.NS', 'INDHOTEL.NS', 'IOC.NS',
