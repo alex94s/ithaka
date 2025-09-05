@@ -7,7 +7,7 @@ This is the main entry point for the application. It orchestrates the execution
 of the Tracker, Factory and Strategy (BAM, CTA, EMM, NEWT, STAB, FAR) modules to ensure that the 
 portfolio is rebalanced according to target allocations.
 
-Author: Alex Schneider
+Author: elreysausage
 Date: 2024-08-15
 """
 
