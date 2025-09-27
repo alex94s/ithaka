@@ -228,7 +228,7 @@ class DataManager(object):
             'SIG', 'SITC', 'SITM', 'SKT', 'SKYW', 'SLG', 'SLP', 'SLVM', 'SM', 
             'SMP', 'SMPL', 'SMTC', 'SNCY', 'SNEX', 'SONO', 'SPNT', 'SPSC', 'SPTN', 
             'SPXC', 'SSTK', 'STAA', 'STBA', 'STC', 'STEL', 'STRA', 'SUPN', 'SVC', 'SXC', 
-            'SXI', 'SXT', 'TALO', 'TBBK', 'TFIN', 'TGI', 'THRM', 'THRY', 'THS', 'TILE', 
+            'SXI', 'SXT', 'TALO', 'TBBK', 'TFIN', 'THRM', 'THRY', 'THS', 'TILE', 
             'TMP', 'TNC', 'TNDM', 'TPH', 'TR', 'TRIP', 'TRMK', 'TRN', 'TRST', 'TRUP', 
             'TTEC', 'TTGT', 'TTMI', 'TWI', 'TWO', 'UCTT', 'UE', 'UFCS', 'UFPT', 'UHT', 
             'UNF', 'UNFI', 'UNIT', 'UPBD', 'URBN', 'USNA', 'USPH', 'UTL', 'UVV', 'VBTX', 
