@@ -34,18 +34,18 @@ ithaka/
 
 The framework relies on the following components to operate as intended:
 
-1. **Python Environment**: 
-- Ensure all dependent packages are installed (`pyproject.toml`). 
-2. **Database**: 
-- A MySQL database with set environment variables for database credentials. 
-3. **Interactive Brokers Account**: 
-- A live account with IBKR. 
-- Authentication through IB Gateway. 
-4. **Market Data Subscriptions**: 
-- CFE Enhanced (NP, L1) 
-- PAXOS Cryptocurrency 
-- US Securities Snapshot and Futures Value Bundle (NP, L1) 
-- UK LSE Equities (NP, L1)
+1. **Python Environment**:
+   - Ensure all dependent packages are installed (`requirements.txt`).
+2. **Database**:
+   - A MySQL database with set environment variables for database credentials.
+3. **Interactive Brokers Account**:
+   - A live account with IBKR.
+   - Authentication through IB Gateway.
+4. **Market Data Subscriptions**:
+   - CFE Enhanced (NP, L1)
+   - PAXOS Cryptocurrency
+   - US Securities Snapshot and Futures Value Bundle (NP, L1)
+   - UK LSE Equities (NP, L1)
 
 ---
 
