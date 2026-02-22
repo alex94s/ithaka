@@ -1,17 +1,6 @@
 # ithaka
 
-A modular Python framework for researching, backtesting, and operating systematic trading strategies across asset classes.
-
-It is designed around a small, stable core and a growing set of strategy modules, making it suitable for both exploratory research and live portfolio tracking.
-
----
-
-## Features
-
-- Modular strategy architecture
-- Shared infrastructure for data ingestion, portfolio construction, and analytics
-- Optional semi- or fully-automated execution via Interactive Brokers (IBKR)
-- Dash app for monitoring historical strategy performance
+A modular Python framework for researching, backtesting, and operating systematic trading strategies across asset classes. It is designed around a small, stable core and a growing set of strategy modules, making it suitable for both exploratory research and live portfolio tracking.
 
 ---
 
@@ -35,7 +24,7 @@ ithaka/
 The framework relies on the following components to operate as intended:
 
 1. **Python Environment**:
-   - Ensure all dependent packages are installed (`requirements.txt`).
+   - Ensure all dependent packages are installed.
 2. **Database**:
    - A MySQL database with set environment variables for database credentials.
 3. **Interactive Brokers Account**:
