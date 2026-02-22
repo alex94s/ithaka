@@ -1,6 +1,6 @@
 # ithaka
 
-**ithaka** is a modular Python framework for researching, backtesting, and operating systematic trading strategies across asset classes.
+A modular Python framework for researching, backtesting, and operating systematic trading strategies across asset classes.
 
 It is designed around a small, stable core and a growing set of strategy modules, making it suitable for both exploratory research and live portfolio tracking.
 
@@ -9,10 +9,9 @@ It is designed around a small, stable core and a growing set of strategy modules
 ## Features
 
 - Modular strategy architecture
-- Shared infrastructure for data ingestion, portfolio tracking, and execution
-- Support for long-only, long/short, futures, and crypto strategies
+- Shared infrastructure for data ingestion, portfolio construction, and analytics
 - Optional semi- or fully-automated execution via Interactive Brokers (IBKR)
-- Designed for reproducible research and extensibility
+- Dash app for monitoring historical strategy performance
 
 ---
 
@@ -28,6 +27,25 @@ ithaka/
 ├── pyproject.toml
 └── README.md
 ```
+
+---
+
+## Requirements
+
+The framework relies on the following components to operate as intended:
+
+1. **Python Environment**: 
+- Ensure all dependent packages are installed (`pyproject.toml`). 
+2. **Database**: 
+- A MySQL database with set environment variables for database credentials. 
+3. **Interactive Brokers Account**: 
+- A live account with IBKR. 
+- Authentication through IB Gateway. 
+4. **Market Data Subscriptions**: 
+- CFE Enhanced (NP, L1) 
+- PAXOS Cryptocurrency 
+- US Securities Snapshot and Futures Value Bundle (NP, L1) 
+- UK LSE Equities (NP, L1)
 
 ---
 
@@ -48,17 +66,11 @@ source env/bin/activate
 pip install -e .
 ```
 
-This installs **ithaka** in editable mode and ensures imports work consistently across scripts, tests, and IDEs.
-
-The `pyproject.toml` file is the authoritative source for dependencies and package configuration.
-
 ---
 
 ## Configuration
 
-The framework expects access to a MySQL database and (optionally) an Interactive Brokers account.
-
-Set the following environment variables:
+Set the following environment variables for database connectivity:
 
 ```bash
 export DB_HOST="your_host"
